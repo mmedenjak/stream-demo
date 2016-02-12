@@ -1,0 +1,23 @@
+target
+*~
+jetty-env.xml
+
+# IntelliJ
+*.iml
+.idea/
+*.iws
+
+# Mac
+.DS_Store
+
+# Eclipse
+.externalToolBuilders/
+.settings/
+.classpath
+.project
+*.launch
+.buildpath
+.metadata
+.loadpath
+local.properties
+logs/

@@ -1,0 +1,13 @@
+<Configure id="wac" class="org.eclipse.jetty.webapp.WebAppContext">
+    <New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+    <Arg>jdbc/datapool</Arg>
+    <Arg>
+        <New class="org.postgresql.jdbc2.optional.SimpleDataSource">
+            <Set name="serverName">localhost</Set>
+            <Set name="databaseName">datapool</Set>
+            <Set name="User">postgres</Set>
+            <Set name="Password">postgres</Set>
+        </New>
+    </Arg>
+    </New>
+</Configure>
